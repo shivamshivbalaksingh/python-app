@@ -1,0 +1,8 @@
+image:
+  repository: 8707686946/python_app
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+service:
+  type: ClusterIP
+  port: 5000
