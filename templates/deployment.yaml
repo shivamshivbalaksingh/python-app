@@ -5,7 +5,7 @@ metadata:
   labels:
     {{- include "python-app.labels" . | nindent 4 }}
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       {{- include "python-app.selectorLabels" . | nindent 6 }}
