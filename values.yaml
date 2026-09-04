@@ -3,7 +3,7 @@ replicaCount: 3
 image:
   repository: 8707686946/python_app
   pullPolicy: IfNotPresent
-  tag: "v2"
+  tag: "v3"
 
 service:
   type: ClusterIP
